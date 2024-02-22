@@ -23,4 +23,8 @@ android {
     namespace = 'com.qualcomm.ftcrobotcontroller'
 }
 
+dependencies {
+    implementation 'androidx.navigation:navigation-fragment:2.7.7'
+}
+
 apply from: '../build.dependencies.gradle'
